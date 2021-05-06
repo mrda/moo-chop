@@ -18,3 +18,7 @@ Build the image
 
 Run the container locally
 * podman run --rm -it -p 5000:5000 localhost/moo-chop
+
+# Pull down a container image and run that
+* Note: Pre-built container images for {amd64, ppc64le, s390x} container images are available here: https://quay.io/repository/mrdaredhat/moo-chop?tab=tags
+* podman run --rm -it -p 5000:5000 quay.io/mrdaredhat/moo-chop
